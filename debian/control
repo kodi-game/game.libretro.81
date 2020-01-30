@@ -1,0 +1,17 @@
+Source: kodi-game-libretro-81
+Priority: extra
+Maintainer: wsnipex <wsnipex@a1.net>
+Build-Depends: debhelper (>= 9.0.0),
+               cmake,
+               kodi-addon-dev,
+               libretro-81 (>= 1.0.0) | 81 (>= 1.0.0)
+Standards-Version: 3.9.8
+Section: libs
+
+Package: kodi-game-libretro-81
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kodi, kodi-game-libretro
+Enhances: kodi
+Description: Sinclair - ZX 81 (EightyOne) core for kodi's retroplayer
+ Sinclair - ZX 81 (EightyOne) core for kodi's retroplayer
