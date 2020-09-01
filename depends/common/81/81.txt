@@ -1,1 +1,1 @@
-81 https://github.com/libretro/81-libretro/archive/4352130bd2363954262a804b086f86b9d13d97f9.zip
+81 https://github.com/libretro/81-libretro/archive/7d769d09b1b6932466272aaf82b37922c1e2e61f.zip
