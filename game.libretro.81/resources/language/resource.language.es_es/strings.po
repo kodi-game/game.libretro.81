@@ -22,7 +22,7 @@ msgid "Sinclair - ZX 81 (EightyOne) 1.0a 028da99"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "EightyOne is an emulator for the range of home computers made by Sinclair Research (and their clones) in the 1980s.[CR][CR]Supported files: .p, .tzx, .t81"
+msgid "EightyOne is an emulator for the range of home computers made by Sinclair Research (and their clones) in the 1980s."
 msgstr ""
 
 msgctxt "#30000"
