@@ -3,11 +3,11 @@
 	<category label="30000">
 		<setting label="30001" type="select" id="81_fast_load" values="enabled|disabled" default="enabled"/>
 		<setting label="30002" type="select" id="81_8_16_contents" values="auto|ROM shadow|RAM|dK&#39;tronics 4K Graphics ROM + 4K RAM" default="auto"/>
-		<setting label="30003" type="select" id="81_hide_border" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="81_border_size" values="normal|small|none" default="normal"/>
 		<setting label="30004" type="select" id="81_highres" values="auto|none|WRX" default="auto"/>
 		<setting label="30005" type="select" id="81_chroma_81" values="auto|disabled|enabled" default="auto"/>
 		<setting label="30006" type="select" id="81_video_presets" values="clean|tv|noisy" default="clean"/>
-		<setting label="30007" type="select" id="81_sound" values="auto|none|Zon X-81" default="auto"/>
+		<setting label="30007" type="select" id="81_sound" values="none|auto|Zon X-81" default="none"/>
 		<setting label="30008" type="select" id="81_joypad_left" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
 		<setting label="30009" type="select" id="81_joypad_right" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
 		<setting label="30010" type="select" id="81_joypad_up" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
