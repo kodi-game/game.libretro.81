@@ -38,7 +38,7 @@ msgid "8K-16K Contents"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Hide Video Border"
+msgid "Size Video Border"
 msgstr ""
 
 msgctxt "#30004"
