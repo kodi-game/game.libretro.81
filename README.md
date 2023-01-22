@@ -13,7 +13,7 @@ GPLv3
 
 ### Icon
 
-Help make me an icon!
+![Icon](game.libretro.81/resources/icon.png)
 
 ### Fanart
 
