@@ -13,7 +13,7 @@ GPLv3
 
 ### Icon
 
-![Icon](game.libretro.81/resources/icon.png)
+![Sinclair - ZX 81 (EightyOne) icon](game.libretro.81/resources/icon.png)
 
 ### Fanart
 
