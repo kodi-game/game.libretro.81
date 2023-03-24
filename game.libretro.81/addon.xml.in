@@ -21,7 +21,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<summary lang="en_GB">Sinclair - ZX 81 (EightyOne) 1.0a 028da99</summary>
+		<summary lang="en_GB">Sinclair - ZX 81 (EightyOne)</summary>
 		<description lang="da_DK">EightyOne er en emulator til rækken af hjemmecomputere lavet af Sinclair Research (og deres kloner) i 1980&apos;erne.</description>
 		<description lang="de_DE">EightyOne ist ein Emulator für die Heimcomputer von Sinclair Research (und deren Nachbauten) aus den 1980er Jahren.</description>
 		<description lang="en_GB">EightyOne is an emulator for the range of home computers made by Sinclair Research (and their clones) in the 1980s.</description>
