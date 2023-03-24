@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 msgctxt "Addon Summary"
-msgid "Sinclair - ZX 81 (EightyOne) 1.0a 028da99"
+msgid "Sinclair - ZX 81 (EightyOne)"
 msgstr ""
 
 msgctxt "Addon Description"

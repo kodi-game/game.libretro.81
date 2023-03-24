@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.15\n"
 
 msgctxt "Addon Summary"
-msgid "Sinclair - ZX 81 (EightyOne) 1.0a 028da99"
+msgid "Sinclair - ZX 81 (EightyOne)"
 msgstr ""
 
 msgctxt "Addon Description"
