@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.81"
 		name="Sinclair - ZX 81 (EightyOne)"
-		version="1.0.0.26"
+		version="1.0.0.27"
 		provider-name="Michael D Wynne">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
