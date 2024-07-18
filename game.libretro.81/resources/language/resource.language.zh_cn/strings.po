@@ -113,6 +113,10 @@ msgctxt "#30021"
 msgid "Time to Release Key in ms"
 msgstr "释放键时间（毫秒）"
 
+msgctxt "#30022"
+msgid "Joypad START button mapping"
+msgstr ""
+
 #~ msgctxt "#30003"
 #~ msgid "Hide Video Border"
 #~ msgstr "隐藏视频边框"

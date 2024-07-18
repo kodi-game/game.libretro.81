@@ -112,3 +112,7 @@ msgstr ""
 msgctxt "#30021"
 msgid "Time to Release Key in ms"
 msgstr ""
+
+msgctxt "#30022"
+msgid "Joypad START button mapping"
+msgstr ""
