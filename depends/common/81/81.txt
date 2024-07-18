@@ -1,1 +1,1 @@
-81 https://github.com/libretro/81-libretro/archive/525d5c18f1ff3fc54c37e083a475225d9179d59d.tar.gz
+81 https://github.com/libretro/81-libretro/archive/c0d56c5bc5cd48715b4e83cbb3d241a6bed94c2a.tar.gz

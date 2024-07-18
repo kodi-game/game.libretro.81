@@ -20,6 +20,7 @@
 		<setting label="30017" type="select" id="81_joypad_r" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
 		<setting label="30018" type="select" id="81_joypad_l2" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
 		<setting label="30019" type="select" id="81_joypad_r2" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30022" type="select" id="81_joypad_start" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
 		<setting label="30020" type="select" id="81_keybovl_transp" values="enabled|disabled" default="enabled"/>
 		<setting label="30021" type="select" id="81_key_hold_time" values="100|300|500|1000" default="100"/>
 	</category>
