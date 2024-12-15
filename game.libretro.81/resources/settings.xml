@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="30000">
+	<category label="128">
 		<setting label="30001" type="select" id="81_fast_load" values="enabled|disabled" default="enabled"/>
 		<setting label="30002" type="select" id="81_8_16_contents" values="auto|ROM shadow|RAM|dK&#39;tronics 4K Graphics ROM + 4K RAM" default="auto"/>
 		<setting label="30003" type="select" id="81_border_size" values="normal|small|none" default="normal"/>
