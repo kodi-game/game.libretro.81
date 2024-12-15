@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "EightyOne is an emulator for the range of home computers made by Sinclair Research (and their clones) in the 1980s."
 msgstr "EightyOne è un emulatore per la gamma di home computer realizzati da Sinclair Research (e relativi cloni) negli anni '80."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Impostazioni"
-
 msgctxt "#30001"
 msgid "Tape Fast Load"
 msgstr "Caricamento rapido del nastro"
@@ -116,6 +112,10 @@ msgstr "Tempo per rilasciare chiave in ms"
 msgctxt "#30022"
 msgid "Joypad START button mapping"
 msgstr "Mappatura pulsante START del joypad"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
 
 #~ msgctxt "#30003"
 #~ msgid "Hide Video Border"
