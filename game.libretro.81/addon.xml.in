@@ -27,6 +27,7 @@
 		<summary lang="es_ES">Sinclair - ZX 81 (EightyOne)</summary>
 		<summary lang="ga">Sinclair - ZX 81 (EightyOne)</summary>
 		<summary lang="it_IT">Sinclair - ZX 81 (EightyOne)</summary>
+		<summary lang="ru_RU">Sinclair — ZX 81 (EightyOne)</summary>
 		<summary lang="sv_SE">Sinclair - ZX 81 (EightyOne)</summary>
 		<summary lang="zh_CN">辛克莱 - ZX 81（EightyOne）</summary>
 		<description lang="da_DK">EightyOne er en emulator til rækken af hjemmecomputere lavet af Sinclair Research (og deres kloner) i 1980&apos;erne.</description>
@@ -35,6 +36,7 @@
 		<description lang="es_ES">EightyOne es un emulador para la gama de ordenadores domésticos fabricados por Sinclair Research (y sus clones) en la década de 1980.</description>
 		<description lang="ga">Is aithriseoir é EightyOne do raon ríomhairí baile a rinne Sinclair Research (agus a gclóin) sna 1980idí.</description>
 		<description lang="it_IT">EightyOne è un emulatore per la gamma di home computer realizzati da Sinclair Research (e relativi cloni) negli anni &apos;80.</description>
+		<description lang="ru_RU">EightyOne — это эмулятор линейки домашних компьютеров, выпущенных Sinclair Research (и их клонов) в 1980-х годах.</description>
 		<description lang="sv_SE">EightyOne är en emulator för den serie hemdatorer som tillverkades av Sinclair Research (och deras kloner) på 1980-talet.</description>
 		<description lang="zh_CN">EightyOne 是辛克莱研究公司（Sinclair Research）在20世纪80年代制造的系列家用电脑的仿真器。</description>
 	</extension>
