@@ -1,27 +1,780 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="128">
-		<setting label="30001" type="select" id="81_fast_load" values="enabled|disabled" default="enabled"/>
-		<setting label="30002" type="select" id="81_8_16_contents" values="auto|ROM shadow|RAM|dK&#39;tronics 4K Graphics ROM + 4K RAM" default="auto"/>
-		<setting label="30003" type="select" id="81_border_size" values="normal|small|none" default="normal"/>
-		<setting label="30004" type="select" id="81_highres" values="auto|none|WRX" default="auto"/>
-		<setting label="30005" type="select" id="81_chroma_81" values="auto|disabled|enabled" default="auto"/>
-		<setting label="30006" type="select" id="81_video_presets" values="clean|tv|noisy" default="clean"/>
-		<setting label="30007" type="select" id="81_sound" values="none|auto|Zon X-81" default="none"/>
-		<setting label="30008" type="select" id="81_joypad_left" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30009" type="select" id="81_joypad_right" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30010" type="select" id="81_joypad_up" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30011" type="select" id="81_joypad_down" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30012" type="select" id="81_joypad_a" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30013" type="select" id="81_joypad_b" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30014" type="select" id="81_joypad_x" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30015" type="select" id="81_joypad_y" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30016" type="select" id="81_joypad_l" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30017" type="select" id="81_joypad_r" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30018" type="select" id="81_joypad_l2" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30019" type="select" id="81_joypad_r2" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30022" type="select" id="81_joypad_start" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
-		<setting label="30020" type="select" id="81_keybovl_transp" values="enabled|disabled" default="enabled"/>
-		<setting label="30021" type="select" id="81_key_hold_time" values="100|300|500|1000" default="100"/>
-	</category>
+<settings version="1">
+	<section id="game.libretro.81">
+		<category id="general" label="128">
+			<group id="1">
+				<setting id="81_fast_load" type="string" label="30001">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_8_16_contents" type="string" label="30002">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>ROM shadow</option>
+							<option>RAM</option>
+							<option>dK&apos;tronics 4K Graphics ROM + 4K RAM</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_border_size" type="string" label="30003">
+					<level>0</level>
+					<default>normal</default>
+					<constraints>
+						<options>
+							<option>normal</option>
+							<option>small</option>
+							<option>none</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_highres" type="string" label="30004">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>none</option>
+							<option>WRX</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_chroma_81" type="string" label="30005">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>disabled</option>
+							<option>enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_video_presets" type="string" label="30006">
+					<level>0</level>
+					<default>clean</default>
+					<constraints>
+						<options>
+							<option>clean</option>
+							<option>tv</option>
+							<option>noisy</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_sound" type="string" label="30007">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option>none</option>
+							<option>auto</option>
+							<option>Zon X-81</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_left" type="string" label="30008">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_right" type="string" label="30009">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_up" type="string" label="30010">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_down" type="string" label="30011">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_a" type="string" label="30012">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_b" type="string" label="30013">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_x" type="string" label="30014">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_y" type="string" label="30015">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_l" type="string" label="30016">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_r" type="string" label="30017">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_l2" type="string" label="30018">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_r2" type="string" label="30019">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_joypad_start" type="string" label="30022">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option>auto</option>
+							<option>default</option>
+							<option>new line</option>
+							<option>shift</option>
+							<option>space</option>
+							<option>.</option>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>a</option>
+							<option>b</option>
+							<option>c</option>
+							<option>d</option>
+							<option>e</option>
+							<option>f</option>
+							<option>g</option>
+							<option>h</option>
+							<option>i</option>
+							<option>j</option>
+							<option>k</option>
+							<option>l</option>
+							<option>m</option>
+							<option>n</option>
+							<option>o</option>
+							<option>p</option>
+							<option>q</option>
+							<option>r</option>
+							<option>s</option>
+							<option>t</option>
+							<option>u</option>
+							<option>v</option>
+							<option>w</option>
+							<option>x</option>
+							<option>y</option>
+							<option>z</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_keybovl_transp" type="string" label="30020">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option>enabled</option>
+							<option>disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="81_key_hold_time" type="string" label="30021">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>100</option>
+							<option>300</option>
+							<option>500</option>
+							<option>1000</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
 </settings>
