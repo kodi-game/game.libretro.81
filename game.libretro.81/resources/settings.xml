@@ -8,8 +8,8 @@
 					<default>enabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -19,10 +19,10 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>ROM shadow</option>
-							<option>RAM</option>
-							<option>dK&apos;tronics 4K Graphics ROM + 4K RAM</option>
+							<option label="16316">auto</option>
+							<option label="30023">ROM shadow</option>
+							<option label="30024">RAM</option>
+							<option label="30025">dK&apos;tronics 4K Graphics ROM + 4K RAM</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -32,9 +32,9 @@
 					<default>normal</default>
 					<constraints>
 						<options>
-							<option>normal</option>
-							<option>small</option>
-							<option>none</option>
+							<option label="30026">normal</option>
+							<option label="30027">small</option>
+							<option label="231">none</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -44,9 +44,9 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>none</option>
-							<option>WRX</option>
+							<option label="16316">auto</option>
+							<option label="231">none</option>
+							<option label="30028">WRX</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -56,9 +56,9 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>disabled</option>
-							<option>enabled</option>
+							<option label="16316">auto</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -80,9 +80,9 @@
 					<default>none</default>
 					<constraints>
 						<options>
-							<option>none</option>
-							<option>auto</option>
-							<option>Zon X-81</option>
+							<option label="231">none</option>
+							<option label="16316">auto</option>
+							<option label="30029">Zon X-81</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -92,48 +92,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -143,48 +143,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -194,48 +194,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -245,48 +245,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -296,48 +296,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -347,48 +347,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -398,48 +398,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -449,48 +449,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -500,48 +500,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -551,48 +551,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -602,48 +602,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -653,48 +653,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -704,48 +704,48 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
-							<option>default</option>
-							<option>new line</option>
-							<option>shift</option>
-							<option>space</option>
-							<option>.</option>
-							<option>0</option>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>a</option>
-							<option>b</option>
-							<option>c</option>
-							<option>d</option>
-							<option>e</option>
-							<option>f</option>
-							<option>g</option>
-							<option>h</option>
-							<option>i</option>
-							<option>j</option>
-							<option>k</option>
-							<option>l</option>
-							<option>m</option>
-							<option>n</option>
-							<option>o</option>
-							<option>p</option>
-							<option>q</option>
-							<option>r</option>
-							<option>s</option>
-							<option>t</option>
-							<option>u</option>
-							<option>v</option>
-							<option>w</option>
-							<option>x</option>
-							<option>y</option>
-							<option>z</option>
+							<option label="16316">auto</option>
+							<option label="571">default</option>
+							<option label="30030">new line</option>
+							<option label="30031">shift</option>
+							<option label="30032">space</option>
+							<option label="30033">.</option>
+							<option label="30034">0</option>
+							<option label="30035">1</option>
+							<option label="30036">2</option>
+							<option label="30037">3</option>
+							<option label="30038">4</option>
+							<option label="30039">5</option>
+							<option label="30040">6</option>
+							<option label="30041">7</option>
+							<option label="30042">8</option>
+							<option label="30043">9</option>
+							<option label="30044">a</option>
+							<option label="30045">b</option>
+							<option label="30046">c</option>
+							<option label="30047">d</option>
+							<option label="30048">e</option>
+							<option label="30049">f</option>
+							<option label="30050">g</option>
+							<option label="30051">h</option>
+							<option label="30052">i</option>
+							<option label="30053">j</option>
+							<option label="30054">k</option>
+							<option label="30055">l</option>
+							<option label="30056">m</option>
+							<option label="30057">n</option>
+							<option label="30058">o</option>
+							<option label="30059">p</option>
+							<option label="30060">q</option>
+							<option label="30061">r</option>
+							<option label="30062">s</option>
+							<option label="30063">t</option>
+							<option label="30064">u</option>
+							<option label="30065">v</option>
+							<option label="30066">w</option>
+							<option label="30067">x</option>
+							<option label="30068">y</option>
+							<option label="30069">z</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -755,8 +755,8 @@
 					<default>enabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
